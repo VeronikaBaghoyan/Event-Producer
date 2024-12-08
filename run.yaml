@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone your Git repository
-                git branch: 'main', url: 'https://github.com/your-repo/rabbitmq-project.git'
+                git branch: 'main', url: 'https://github.com/VeronikaBaghoyan/Event-Producer.git'
             }
         }
         stage('Install Dependencies') {
